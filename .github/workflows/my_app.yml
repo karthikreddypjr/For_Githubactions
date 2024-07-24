@@ -2,7 +2,7 @@ name: My_application_kart
 on: push
 jobs:
   Printing_job:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: This step is to print the job
         run: echo "Hello Karthik"
