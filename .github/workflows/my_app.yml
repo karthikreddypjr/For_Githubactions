@@ -1,5 +1,5 @@
 name: My_application_kart
-on: push
+on: workflow_dispatch
 jobs:
   Printing_job:
     runs-on: ubuntu-latest
